@@ -5,7 +5,7 @@ workflows:
   build:
     scripts:
       - name: Build Android App Bundle
-        working_directory: example
+        working_directory: example/discover_printers
         script: flutter build apk
     artifacts:
       - android/build/**/outputs/bundle/**/*.apk
